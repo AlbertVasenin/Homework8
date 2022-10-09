@@ -92,12 +92,10 @@ public class Main {
              array[2]=3;  */
 
         for (int i=0; i< array.length; i++){
-            if(array[i]%2==0){
-                array[i]+=0;
-            }else {
+            if(array[i]%2!=0){
                 array[i]++;
             }
-            System.out.printf("%d,", array[i]);
+            System.out.printf("%d ", array[i]);
         }
     }
 }
